@@ -29,6 +29,9 @@
 
 @interface NZCircularImageView : UIImageView
 
+@property (nonatomic, copy) UIColor*    borderColor;
+@property (nonatomic, copy) NSNumber*   borderWidth;
+
 - (void)setImageWithResizeURL:(NSString *)stringUrl;
 
 - (void)setImageWithResizeURL:(NSString *)stringUrl

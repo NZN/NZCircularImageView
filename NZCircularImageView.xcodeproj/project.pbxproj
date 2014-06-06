@@ -18,7 +18,6 @@
 		F8E354D618574BFE000755C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E354CC18574BFE000755C6 /* Images.xcassets */; };
 		F8E354D718574BFE000755C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8E354CE18574BFE000755C6 /* InfoPlist.strings */; };
 		F8E354D818574BFE000755C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E354D018574BFE000755C6 /* main.m */; };
-		F8E354DD18574C03000755C6 /* NZCircularImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E354DC18574C03000755C6 /* NZCircularImageView.m */; };
 		F8E354E418574E06000755C6 /* 300x300.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8E354E018574E06000755C6 /* 300x300.jpg */; };
 		F8E354E518574E06000755C6 /* 300x300.png in Resources */ = {isa = PBXBuildFile; fileRef = F8E354E118574E06000755C6 /* 300x300.png */; };
 		F8E354E618574E06000755C6 /* 300x400.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8E354E218574E06000755C6 /* 300x400.jpg */; };
@@ -44,8 +43,6 @@
 		F8E354D018574BFE000755C6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F8E354D118574BFE000755C6 /* NZCircularImageView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NZCircularImageView-Info.plist"; sourceTree = "<group>"; };
 		F8E354D218574BFE000755C6 /* NZCircularImageView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NZCircularImageView-Prefix.pch"; sourceTree = "<group>"; };
-		F8E354DB18574C03000755C6 /* NZCircularImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NZCircularImageView.h; sourceTree = "<group>"; };
-		F8E354DC18574C03000755C6 /* NZCircularImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NZCircularImageView.m; sourceTree = "<group>"; };
 		F8E354E018574E06000755C6 /* 300x300.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 300x300.jpg; sourceTree = "<group>"; };
 		F8E354E118574E06000755C6 /* 300x300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 300x300.png; sourceTree = "<group>"; };
 		F8E354E218574E06000755C6 /* 300x400.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 300x400.jpg; sourceTree = "<group>"; };
@@ -73,7 +70,6 @@
 			children = (
 				F8E354C218574BFE000755C6 /* Example */,
 				F8E3546D18574013000755C6 /* Frameworks */,
-				F8E354DA18574C03000755C6 /* NZCircularImageView */,
 				F8E3546C18574013000755C6 /* Products */,
 				295238687EF0436DB79CB4C8 /* Pods.xcconfig */,
 			);
@@ -148,15 +144,6 @@
 				F8E354D218574BFE000755C6 /* NZCircularImageView-Prefix.pch */,
 			);
 			path = SupportingFiles;
-			sourceTree = "<group>";
-		};
-		F8E354DA18574C03000755C6 /* NZCircularImageView */ = {
-			isa = PBXGroup;
-			children = (
-				F8E354DB18574C03000755C6 /* NZCircularImageView.h */,
-				F8E354DC18574C03000755C6 /* NZCircularImageView.m */,
-			);
-			path = NZCircularImageView;
 			sourceTree = "<group>";
 		};
 		F8E354DE18574CD7000755C6 /* Resources */ = {
@@ -286,7 +273,6 @@
 				F8E354D418574BFE000755C6 /* NZAppDelegate.m in Sources */,
 				F8E354D818574BFE000755C6 /* main.m in Sources */,
 				F8E354D318574BFE000755C6 /* NZViewController.m in Sources */,
-				F8E354DD18574C03000755C6 /* NZCircularImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

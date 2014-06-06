@@ -7,7 +7,7 @@
 //
 
 #import "NZViewController.h"
-#import "NZCircularImageView.h"
+#import <NZCircularImageView/NZCircularImageView.h>
 
 static NSString* const kImageUrl = @"http://s13.postimg.org/daarzj713/parque_barigui.jpg";
 

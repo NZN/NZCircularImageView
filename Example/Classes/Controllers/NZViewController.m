@@ -34,8 +34,8 @@ static NSString* const kImageUrl = @"http://s13.postimg.org/daarzj713/parque_bar
 {
     [super viewDidLoad];
     
-    //self.imageView.borderColor = [UIColor purpleColor];
-    //self.imageView.borderWidth = [NSNumber numberWithInteger:10];
+    self.imageView.borderColor = [UIColor purpleColor];
+    self.imageView.borderWidth = [NSNumber numberWithInteger:10];
     
     [self jpg300Clicked];
 }

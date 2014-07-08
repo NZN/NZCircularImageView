@@ -1,3 +1,4 @@
-platform :ios, '6.0'
 
-pod 'UIActivityIndicator-for-SDWebImage', '~> 1.0.3'
+platform :ios, '5.0'
+
+pod 'NZCircularImageView', :path => './'

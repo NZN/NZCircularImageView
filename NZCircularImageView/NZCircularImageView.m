@@ -171,6 +171,18 @@
         shape.strokeColor       = self.borderColor.CGColor;
         shape.fillColor         = [UIColor clearColor].CGColor;
         shape.position          = point;
+        
+        shape.name = @"borderLayer";
+        
+        // remove old border layer if needed
+        for (CAShapeLayer *layer in self.layer.sublayers)
+        {
+            if ([layer.name isEqualToString:@"borderLayer"])
+            {
+                [layer removeFromSuperlayer];
+                break;
+            }
+        }
 
         [self.layer addSublayer:shape];
     }
